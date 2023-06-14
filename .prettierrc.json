@@ -1,0 +1,7 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "prettier.semi": false
+}
