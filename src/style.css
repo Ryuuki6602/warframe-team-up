@@ -1,0 +1,74 @@
+html,
+body,
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+  box-sizing: border-box;
+  cursor: url(../src/assets/cursor/lotus.cur), auto;
+  font-family: "Smiley Sans";
+}
+@font-face {
+  font-family: 'Smiley Sans';
+  src: url('../src/assets/font/SmileySans-Oblique.otf.woff2') format(woff2);
+}
+
+.clearStyle {
+  padding: 0 !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.tip{
+  color: var(--el-text-color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.tip > div {
+  font-size: 0.88rem;
+  margin-right: 5px;
+}
+/* 修改滚动条样式 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+/* 定义轨道 */
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+/* 定义滑块 */
+::-webkit-scrollbar-thumb {
+  background: rgb(201, 201, 202);
+  border-radius: 8px;
+}
+/* 定义 hover 时 */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 232, 197);
+}
+
+:root{
+  color-scheme: light;
+  --ryu-text-color-priamry: #000;
+  --ryu-text-color-reversed: #fff;
+  --ryu-text-color-secondary: #030303;
+  --ryu-text-color-thin:#c5c5c5;
+}
+
+:root{
+  color-scheme: dark;
+  --ryu-text-color-priamry: #fff;
+  --ryu-text-color-priamry: #000;
+  --ryu-text-color-secondary: #f2f3f5;
+  --ryu-text-color-thin:#727272;
+}
